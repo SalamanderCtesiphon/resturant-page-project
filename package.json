@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/SalamanderCtesiphon/resturant-page-project/issues"
   },
-  "homepage": "https://github.com/SalamanderCtesiphon/resturant-page-project#readme"
+  "homepage": "https://github.com/SalamanderCtesiphon/resturant-page-project#readme",
+  "devDependencies": {
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
 }
