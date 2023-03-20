@@ -1,4 +1,21 @@
-.hello {
-  color: red;
-  background: url('./icon.png');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 8vh;
+  border-bottom: 1px solid black;
+}
+
+.navBtn {
+  border: 1px solid black;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding: .5vh;
+  cursor: pointer;
 }

@@ -1,6 +1,10 @@
+
+
 const homepage = () => {
-  const content = document.getElementById('content');
-  content.innerText = 'hello';
+  const body = document.querySelector('body');
+  const homePageContent = document.createElement('div');
+  homePageContent.innerText = 'Hello';
+  body.appendChild(homePageContent);
 };
 
 export { homepage };
