@@ -4,38 +4,66 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: auto;
+}
+
 .header {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 8vh;
-  border-bottom: 1px solid black;
+  height: 4.5vh;
+  background-color: black;
 }
 
 .navBtn {
-  border: 1px solid black;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  background-color: white;
+  border-top-right-radius: 1vh;
+  border-top-left-radius: 1vh;
+  margin-left: .5vw;
+  margin-right: .5vw;
   padding: .5vh;
   cursor: pointer;
 }
 
 .page {
   display: flex;
-  justify-content: center;
-  height: 84vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 89.5vh;
   width: auto;
+}
+
+p {
+  margin: 6vh;
+  margin-bottom: 10vh;
+  width: 25vw;
+  min-width: 300px;
+  height: auto;
+  overflow: hidden;
 }
 
 .nameOfResturant {
   margin: 2vh;
 }
 
+.cafeImage {
+  background: url(./images/jonas-jacobsson-1iTKoFJvJ6E-unsplash.jpg);
+  height: 50vh;
+  width: auto;
+}
+
 .footer {
-  border: 1px solid black;
+  color: white;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh;
+  height: 6vh;
   width: auto;
 }
