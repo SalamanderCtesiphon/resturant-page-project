@@ -76,6 +76,26 @@ p {
   width: 7vw;
 }
 
+.menuContent {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  height: auto;
+  padding: 4vh;
+}
+
+#middleItem {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
 .footer {
   color: white;
   background-color: black;
@@ -84,4 +104,8 @@ p {
   align-items: center;
   height: 6vh;
   width: auto;
+}
+
+img {
+  margin-right: 1.5vw;
 }

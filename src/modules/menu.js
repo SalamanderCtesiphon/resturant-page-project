@@ -11,6 +11,13 @@ const menuContent = () => {
   const cappuccino = document.createElement('div');
   const latte = document.createElement('div');
 
+  const classicBlackTextContent = document.createElement('div');
+  classicBlackTextContent.innerText = "A single sourced dark roast Brazilian bean.";
+  const cappuccinoTextContent = document.createElement('div');
+  cappuccinoTextContent.innerText = 'A freakin cappuccino whoa';
+  const latteTextContent = document.createElement('div');
+  latteTextContent.innerText = 'Hey. I\'m a freakin latte!';
+
   menuContent.classList.add('menuContent');
   
   const classicBlackImg = new Image();
@@ -25,12 +32,20 @@ const menuContent = () => {
   latteImg.src = image3;
   latteImg.classList.add('latteImg');
 
+  classicBlack.classList.add('menuItem');
+  cappuccino.classList.add('menuItem');
+  cappuccino.setAttribute('id', 'middleItem');
+  latte.classList.add('menuItem');
+
 
   classicBlack.appendChild(classicBlackImg);
+  classicBlack.appendChild(classicBlackTextContent);
   menuContent.appendChild(classicBlack);
   cappuccino.appendChild(cappuccinoImg);
+  cappuccino.appendChild(cappuccinoTextContent);
   menuContent.appendChild(cappuccino);
   latte.appendChild(latteImg);
+  latte.appendChild(latteTextContent);
   menuContent.appendChild(latte);
   main.classList.add('page');
   main.appendChild(menuContent);
