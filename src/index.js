@@ -16,14 +16,10 @@ home.textContent = 'Home';
 menu.textContent = 'Menu';
 contact.textContent = 'Contact';
 
-home.addEventListener('click', displayHomePage);
+home.addEventListener('click', homepage);
 menu.addEventListener('click', menuContent);
 contact.addEventListener('click', contactInfo);
 
-const displayHomePage = () => {
-  homepage();
-
-}
 
 header.classList.add('header');
 home.classList.add('navBtn');
