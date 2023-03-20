@@ -1,3 +1,5 @@
+
+
 const contactInfo = () => {
   const main = document.querySelector('.main');
   main.innerText= '';

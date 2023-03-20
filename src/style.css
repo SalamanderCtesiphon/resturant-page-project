@@ -58,6 +58,24 @@ p {
   width: auto;
 }
 
+.classicBlackImg {
+  background: url(./images/devin-avery-5iRgh_G0eRY-unsplash.jpg);
+  height: 20vh;
+  width: 7vw;
+}
+
+.cappuccinoImg {
+  background: url(./images/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg);
+  height: 20vh;
+  width: 7vw;
+}
+
+.latteImg {
+  background: url(./images/jarek-ceborski-IhqDpFz7I8Q-unsplash.jpg);
+  height: 20vh;
+  width: 7vw;
+}
+
 .footer {
   color: white;
   background-color: black;
