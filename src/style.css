@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "MyFont";
+  src: url('./LibreFranklin-Regular.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -10,6 +17,7 @@ body {
   justify-content: space-between;
   height: 100vh;
   width: auto;
+  font-family: 'MyFont';
 }
 
 .header {
