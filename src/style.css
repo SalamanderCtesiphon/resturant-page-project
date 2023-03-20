@@ -27,6 +27,10 @@
   width: auto;
 }
 
+.nameOfResturant {
+  margin: 2vh;
+}
+
 .footer {
   border: 1px solid black;
   display: flex;
