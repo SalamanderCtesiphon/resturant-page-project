@@ -2,7 +2,7 @@
   "name": "resturant-page-project",
   "version": "1.0.0",
   "description": "dynamically rendered webpage ",
-  "main": "index.js",
+  "private":"true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
