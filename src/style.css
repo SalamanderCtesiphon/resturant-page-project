@@ -3,6 +3,7 @@
   src: url('./LibreFranklin-Regular.ttf');
   font-weight: 600;
   font-style: normal;
+  letter-spacing: 3rem;
 }
 
 * {
@@ -41,6 +42,7 @@ body {
 .page {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   align-items: center;
   height: 89.5vh;
@@ -53,7 +55,6 @@ p {
   width: 25vw;
   min-width: 300px;
   height: auto;
-  overflow: hidden;
 }
 
 .nameOfResturant {
@@ -82,6 +83,12 @@ p {
   background: url(./images/jarek-ceborski-IhqDpFz7I8Q-unsplash.jpg);
   height: 20vh;
   width: 7vw;
+}
+
+.contactImg {
+  background: url(./images/tomas-jasovsky-d5SZqLkpIrY-unsplash.jpg);
+  height: 40vh;
+  width: auto;
 }
 
 .menuContent {
