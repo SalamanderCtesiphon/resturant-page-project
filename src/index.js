@@ -1,4 +1,4 @@
-import content from "./modules/homepage";
+import { homepage } from "./modules/homepage";
 
 
-content;
+homepage();

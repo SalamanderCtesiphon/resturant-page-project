@@ -1,5 +1,6 @@
-const content = document.getElementById('content');
+const homepage = () => {
+  const content = document.getElementById('content');
+  content.innerText = 'hello';
+};
 
-content.innerHTML = "hello";
-
-export default content;
+export { homepage };
