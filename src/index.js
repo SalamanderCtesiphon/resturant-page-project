@@ -1,5 +1,7 @@
 import './style.css';
 import { homepage } from "./modules/homepage";
+import { menuContent  } from './modules/menu';
+import { contactInfo } from './modules/contact';
 
 const content = document.getElementById('content');
 
@@ -14,6 +16,8 @@ menu.textContent = 'Menu';
 contact.textContent = 'Contact';
 
 home.addEventListener('click', homepage);
+menu.addEventListener('click', menuContent);
+contact.addEventListener('click', contactInfo);
 
 header.classList.add('header');
 home.classList.add('navBtn');
