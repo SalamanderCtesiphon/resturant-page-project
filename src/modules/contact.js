@@ -10,13 +10,13 @@ const contactInfo = () => {
   contactTextContent.innerText = "Email: swbrookshire@gmail.com ";
   contactTextContent.classList.add('menuContent');
   const para1 = document.createElement('p');
-  para1.innerText = 'This webpage was created using only vanilla JavaScript. With all the navigation between the pages being rendered dynamically.'
+  para1.innerText = 'This webpage was created using only vanilla JavaScript with all the navigation between pages rendered dynamically. You can visit the Github repo for this site by clicking the author tag below.'
 
   const contactImg = new Image();
   contactImg.src = image4;
   contactImg.classList.add('contactImg')
   
-  contactInfo.innerText = 'Contact';
+  contactInfo.innerText = 'Contact site developer:';
   main.classList.add('page');
   main.appendChild(contactInfo);
   main.appendChild(contactImg);
