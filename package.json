@@ -2,7 +2,7 @@
   "name": "resturant-page-project",
   "version": "1.0.0",
   "description": "dynamically rendered webpage ",
-  "private":"true",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +25,8 @@
   "devDependencies": {
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
