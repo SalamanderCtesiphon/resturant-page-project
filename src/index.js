@@ -1,1 +1,4 @@
-console.log('hello');
+import content from "./modules/homepage";
+
+
+content;
