@@ -3,6 +3,7 @@ import { homepage } from "./modules/homepage";
 import { menuContent  } from './modules/menu';
 import { contactInfo } from './modules/contact';
 
+
 const content = document.getElementById('content');
 
 const header = document.createElement('div');
@@ -15,9 +16,14 @@ home.textContent = 'Home';
 menu.textContent = 'Menu';
 contact.textContent = 'Contact';
 
-home.addEventListener('click', homepage);
+home.addEventListener('click', displayHomePage);
 menu.addEventListener('click', menuContent);
 contact.addEventListener('click', contactInfo);
+
+const displayHomePage = () => {
+  homepage();
+
+}
 
 header.classList.add('header');
 home.classList.add('navBtn');
