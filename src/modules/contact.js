@@ -3,6 +3,7 @@ const contactInfo = () => {
   main.innerText= '';
   const contactInfo = document.createElement('div');
   contactInfo.innerText = 'Contact';
+  main.classList.add('page');
   main.appendChild(contactInfo);
 };
 
