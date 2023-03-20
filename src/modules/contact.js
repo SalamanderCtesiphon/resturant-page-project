@@ -1,8 +1,9 @@
 const contactInfo = () => {
-  const body = document.querySelector('body');
+  const main = document.querySelector('.main');
+  main.innerText= '';
   const contactInfo = document.createElement('div');
   contactInfo.innerText = 'Contact';
-  body.appendChild(contactInfo);
+  main.appendChild(contactInfo);
 };
 
 export { contactInfo };

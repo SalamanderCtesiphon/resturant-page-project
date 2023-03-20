@@ -1,10 +1,11 @@
 
 
 const homepage = () => {
-  const body = document.querySelector('body');
+  const main = document.querySelector('.main');
+  main.innerText= '';
   const homePageContent = document.createElement('div');
   homePageContent.innerText = 'Hello';
-  body.appendChild(homePageContent);
+  main.appendChild(homePageContent);
 };
 
 export { homepage };

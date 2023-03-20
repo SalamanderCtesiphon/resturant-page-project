@@ -1,8 +1,9 @@
 const menuContent = () => {
-  const body = document.querySelector('body');
+  const main = document.querySelector('.main');
+  main.innerText= '';
   const menuContent = document.createElement('div');
   menuContent.innerText = 'Menu';
-  body.appendChild(menuContent);
+  main.appendChild(menuContent);
 };
 
 export { menuContent };
