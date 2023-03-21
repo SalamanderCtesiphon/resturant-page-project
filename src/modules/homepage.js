@@ -9,7 +9,7 @@ const homepage = () => {
   nameOfResturant.classList.add('nameOfResturant');
 
   const paragraph = document.createElement('p');
-  paragraph.textContent = "This coffee shop is my favorite spot to hang out or catch up on work. I really enjoy the quite atmosphere and elegant embiance of this quaint cafe. The coffee and pastries are so delicious."
+  paragraph.textContent = "This coffee shop is my favorite spot to hang out or catch up on work. I really enjoy the quiet atmosphere and elegant embiance of this quaint cafe. The coffee and pastries are so delicious."
 
 
   const cafeImage = new Image();
