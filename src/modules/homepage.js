@@ -9,7 +9,7 @@ const homepage = () => {
   nameOfResturant.classList.add('nameOfResturant');
 
   const paragraph = document.createElement('p');
-  paragraph.textContent = "This coffee shop is my favorite spot to hang out or catch up on work. I really enjoy the quiet atmosphere and elegant embiance of this quaint cafe. The coffee and pastries are so delicious."
+  paragraph.textContent = "Looking for great coffee? You chose the right place. We employ a team of expert roasters from Costa Rica and Ethiopia. Who are uniquely qualified to bring you the finest quality cup of coffee that can be found anywhere in the region."
 
 
   const cafeImage = new Image();

@@ -12,11 +12,11 @@ const menuContent = () => {
   const latte = document.createElement('div');
 
   const classicBlackTextContent = document.createElement('div');
-  classicBlackTextContent.innerText = "A single sourced dark roast Brazilian bean.";
+  classicBlackTextContent.innerText = "Nothing beats a classic Black Coffee in the morning. Sure, there are a lot of coffee varieties and recipes out there. But there is something about your regular cup of joe that just screams chef’s kiss. ";
   const cappuccinoTextContent = document.createElement('div');
-  cappuccinoTextContent.innerText = 'A freakin cappuccino whoa';
+  cappuccinoTextContent.innerText = 'A cappuccino is an Italian coffee drink that is traditionally prepared with equal parts double espresso, steamed milk, and steamed milk foam on top.';
   const latteTextContent = document.createElement('div');
-  latteTextContent.innerText = 'Hey. I\'m a freakin latte!';
+  latteTextContent.innerText = 'The phrase “café latte” literally means “coffee milk.”';
 
   menuContent.classList.add('menuContent');
   
