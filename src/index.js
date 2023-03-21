@@ -17,8 +17,10 @@ home.textContent = 'Home';
 menu.textContent = 'Menu';
 contact.textContent = 'Contact';
 footer.classList.add('footer-link');
+
+const date = new Date().getFullYear();
 footer.innerHTML = `<a href="https://github.com/SalamanderCtesiphon/resturant-page-project" class="footer-link">
-<h6  >Seamus Quixiote  &#169; <span id="currentYear"></span> <a href="https://www.theodinproject.com/" class="footer-link">for The Odin Project</a></h6>
+<h5>Seamus Quixiote  &#169; <span id="currentYear">${date}</span> <a href="https://www.theodinproject.com/" class="footer-link">for The Odin Project</a></h5>
 </a>`;
 
 
