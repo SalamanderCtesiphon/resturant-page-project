@@ -112,6 +112,7 @@ p {
 }
 
 .footer {
+  text-decoration: none;
   color: white;
   background-color: black;
   display: flex;
@@ -119,6 +120,12 @@ p {
   align-items: center;
   height: 6vh;
   width: auto;
+}
+
+.footer-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 img {

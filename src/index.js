@@ -16,7 +16,12 @@ const footer = document.createElement('div');
 home.textContent = 'Home';
 menu.textContent = 'Menu';
 contact.textContent = 'Contact';
-footer.textContent = 'Seamus Quixote for the odin project current year';
+footer.classList.add('footer-link');
+footer.innerHTML = `<a href="https://github.com/SalamanderCtesiphon/resturant-page-project" class="footer-link">
+<h6  >Seamus Quixiote  &#169; <span id="currentYear"></span> <a href="https://www.theodinproject.com/" class="footer-link">for The Odin Project</a></h6>
+</a>`;
+
+
 
 home.addEventListener('click', homepage);
 menu.addEventListener('click', menuContent);
